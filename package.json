@@ -1,27 +1,28 @@
 {
-  "name": "invictos_chat_bot",
-  "version": "1.0.0",
-  "description": "Telegram chatbot",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/guumeyer/invictos-chatbot.git"
-  },
-  "keywords": [
-    "telegram",
-    "chat",
-    "bot"
-  ],
-  "author": "gustavo meyer",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/guumeyer/invictos-chatbot/issues"
-  },
-  "homepage": "https://github.com/guumeyer/invictos-chatbot#readme",
-  "dependencies": {
-    "telegram-node-bot": "^4.0.5"
-  }
+    "name": "invictos_chat_bot",
+    "version": "1.0.0",
+    "description": "Telegram chatbot",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/guumeyer/invictos-chatbot.git"
+    },
+    "keywords": [
+        "telegram",
+        "chat",
+        "bot"
+    ],
+    "author": "gustavo meyer",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/guumeyer/invictos-chatbot/issues"
+    },
+    "homepage": "https://github.com/guumeyer/invictos-chatbot#readme",
+    "dependencies": {
+        "telegram-node-bot": "^4.0.5"
+    }
 }
